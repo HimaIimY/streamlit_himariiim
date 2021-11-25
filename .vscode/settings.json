@@ -1,0 +1,40 @@
+{
+    // エディターでスペースを表示するかどうか
+    "editor.renderWhitespace": "all",
+    // ファイル保存時に末尾の空白をトリミング
+    "files.trimTrailingWhitespace": true,
+    // タブサイズ (スペース数)
+    "editor.tabSize": 2,
+    // 行の折り返し方法
+    "editor.wordWrap": "on",
+    // ファイル保存時に最終行に空行を挿入
+    "files.insertFinalNewline": true,
+    // ファイル保存時に最終行以降の空行をトリミング
+    "files.trimFinalNewlines": true,
+    // 制御文字の表示
+    "editor.renderControlCharacters": true,
+    // activityBarの表示
+    "workbench.activityBar.visible": true,
+    // 下部のstatusBarの表示
+    "workbench.statusBar.visible": true,
+    "python.analysis.extraPaths": [
+      "DoNotTouchThisFolder"
+  ],
+    // ↓ HTML, CSSを使わない場合は削除
+    // Emmet候補をスニペットに表示
+    "emmet.showSuggestionsAsSnippets": true,
+    // TabキーでEmmet展開
+    "emmet.triggerExpansionOnTab": true,
+    // Emmet のスニペットで使用される変数
+    "emmet.variables": {
+      "lang": "ja" // HTMLの言語
+    },
+
+
+    // ↓ Railsを使わない場合は削除
+    // Emmetの言語の紐付け
+    "emmet.includeLanguages": {
+      "erb": "html",
+      "html.erb": "html",
+    },
+  }
